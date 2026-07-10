@@ -13,9 +13,12 @@
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
 		"storybook": "storybook dev -p 6006",
-		"build-storybook": "storybook build"
+		"build-storybook": "storybook build",
+		"chromatic": "chromatic --project-token=${CHROMATIC_PROJECT_TOKEN}"
 	},
 	"devDependencies": {
+		"@changesets/changelog-github": "^0.7.0",
+		"@changesets/cli": "^2.31.0",
 		"@chromatic-com/storybook": "^5.2.1",
 		"@eslint/js": "^10.0.1",
 		"@internationalized/date": "^3.12.2",
@@ -34,6 +37,7 @@
 		"@types/node": "^24",
 		"@vitest/browser-playwright": "^4.1.10",
 		"@vitest/coverage-v8": "^4.1.10",
+		"chromatic": "^18.0.1",
 		"daisyui": "5.6.0-beta.0",
 		"eslint": "^10.4.1",
 		"eslint-config-prettier": "^10.1.8",
