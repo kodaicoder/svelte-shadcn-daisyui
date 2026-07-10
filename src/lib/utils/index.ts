@@ -1,1 +1,1 @@
-export { cn } from "./cn.js";
+export { cn, type WithElementRef } from "./cn.js";
