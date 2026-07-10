@@ -101,6 +101,19 @@ async function main() {
   --popover-foreground: var(--color-base-content);
   --input: var(--color-neutral);
   --ring: var(--color-primary);
+  --chart-1: var(--color-primary);
+  --chart-2: var(--color-secondary);
+  --chart-3: var(--color-accent);
+  --chart-4: var(--color-info);
+  --chart-5: var(--color-success);
+  --sidebar: var(--color-base-100);
+  --sidebar-foreground: var(--color-base-content);
+  --sidebar-primary: var(--color-primary);
+  --sidebar-primary-foreground: var(--color-primary-content);
+  --sidebar-accent: var(--color-accent);
+  --sidebar-accent-foreground: var(--color-accent-content);
+  --sidebar-border: var(--color-neutral);
+  --sidebar-ring: var(--color-primary);
   --radius: var(--radius-box);
 }
 `);
