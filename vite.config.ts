@@ -2,6 +2,7 @@
 import tailwindcss from '@tailwindcss/vite';
 import adapter from '@sveltejs/adapter-auto';
 import { sveltekit } from '@sveltejs/kit/vite';
+import { svelteTesting } from '@testing-library/svelte/vite';
 import { defineConfig } from 'vite';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -28,6 +29,16 @@ export default defineConfig({
 	],
 	test: {
 		projects: [
+			{
+				extends: true,
+				plugins: [svelteTesting()],
+				test: {
+					name: 'unit',
+					environment: 'jsdom',
+					include: ['src/**/*.test.ts'],
+					setupFiles: ['./vitest.setup.ts']
+				}
+			},
 			{
 				extends: true,
 				plugins: [
