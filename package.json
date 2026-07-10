@@ -16,7 +16,8 @@
 		"build-storybook": "storybook build",
 		"chromatic": "chromatic --project-token=${CHROMATIC_PROJECT_TOKEN}",
 		"version-packages": "changeset version",
-		"release": "pnpm build && changeset publish"
+		"release": "pnpm build && changeset publish",
+		"setup": "node setup.js"
 	},
 	"devDependencies": {
 		"@changesets/changelog-github": "^0.7.0",
