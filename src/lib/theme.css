@@ -1,0 +1,48 @@
+/* Theme Bridge: Maps DaisyUI theme variables to shadcn-svelte CSS variables */
+/* This allows consumers to use DaisyUI's theme generator and have colors automatically apply to shadcn-svelte components */
+
+:root {
+	/* Primary colors */
+	--primary: var(--color-primary);
+	--primary-foreground: var(--color-primary-content);
+
+	/* Secondary colors */
+	--secondary: var(--color-secondary);
+	--secondary-foreground: var(--color-secondary-content);
+
+	/* Destructive/Error colors */
+	--destructive: var(--color-error);
+	--destructive-foreground: var(--color-error-content);
+
+	/* Muted colors */
+	--muted: var(--color-base-200);
+	--muted-foreground: var(--color-base-content);
+
+	/* Accent colors */
+	--accent: var(--color-accent);
+	--accent-foreground: var(--color-accent-content);
+
+	/* Border colors */
+	--border: var(--color-neutral);
+
+	/* Background colors */
+	--background: var(--color-base-100);
+	--foreground: var(--color-base-content);
+
+	/* Card colors */
+	--card: var(--color-base-100);
+	--card-foreground: var(--color-base-content);
+
+	/* Popover colors */
+	--popover: var(--color-base-100);
+	--popover-foreground: var(--color-base-content);
+
+	/* Input colors */
+	--input: var(--color-neutral);
+
+	/* Ring colors */
+	--ring: var(--color-primary);
+
+	/* Radius tokens */
+	--radius: var(--radius-box);
+}
