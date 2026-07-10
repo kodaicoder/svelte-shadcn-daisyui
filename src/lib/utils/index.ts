@@ -1,1 +1,1 @@
-export { cn, type WithElementRef } from "./cn.js";
+export { cn, type WithElementRef, type WithoutChildrenOrChild } from "./cn.js";

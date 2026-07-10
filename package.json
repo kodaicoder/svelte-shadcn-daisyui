@@ -19,6 +19,7 @@
 		"@chromatic-com/storybook": "^5.2.1",
 		"@eslint/js": "^10.0.1",
 		"@internationalized/date": "^3.12.2",
+		"@lucide/svelte": "^1.24.0",
 		"@storybook/addon-a11y": "^10.4.6",
 		"@storybook/addon-docs": "^10.4.6",
 		"@storybook/addon-svelte-csf": "^5.1.2",
